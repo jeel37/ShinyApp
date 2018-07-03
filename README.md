@@ -9,4 +9,6 @@ The fourth tab shows the survival of Adults for the selected data.
 
 The interactive plots can be zoomed in and out of. Do visit the application at: https://jeel.shinyapps.io/TitanicApp/
 
+To view a presentation on this Web Application, do visit: http://rpubs.com/jcac/Titanic
+
 Enjoy!

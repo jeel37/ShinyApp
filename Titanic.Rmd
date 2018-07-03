@@ -1,0 +1,48 @@
+---
+title: "Titanic Survival"
+author: "JC"
+date: "5/27/2018"
+output: ioslides_presentation
+---
+
+## Project Overview
+
+This presentation is being created as part of the peer assessment for the coursera developing data products class. 
+
+The project has two parts:
+
+ - *Shiny*: To build data product application
+ - *Presentation*: To create data product related presentations
+
+## Application Overview
+
+The dataset from Titanic was used here. This dataset is a record of who survived the titanic tragedy and who did not, and what category of Age, Sex and Class they belonged to. 
+
+In this application :
+
+- User can select values from the following categories: Age, Sex, Class
+- Based on their selection, data will be reduced and plotted to observe the survival of passengers that fulfill the selection. 
+- User can explore the comparison of survival. Eg. Comparison of survival of Male vs Female passengers for the selected data.
+
+## Data Exploration | Embedded R Code
+
+The dataset was initally explored to understand it.
+
+```{r message=FALSE, warning=FALSE}
+library(MASS)
+data("Titanic")
+summary(as.data.frame(Titanic))
+```
+
+## Experience the Web App
+
+1. Shiny App : <a href="https://jeel.shinyapps.io/TitanicApp/">Titanic Survival</a>
+2. server.R, ui.R file: <a href="https://github.com/jeel37/Who-Survived-on-Titanic">Github Repository</a>
+
+Note: Project documentation is a part of the web app, as directed in the instructions.
+
+
+Hope you enjoy the application. 
+*Thank You!*
+
+

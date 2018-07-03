@@ -7,6 +7,6 @@ The second tab shows the survival comparison of passengers belonging to First Cl
 The third tab show the survival of Children for the selected data.
 The fourth tab shows the survival of Adults for the selected data.
 
-The interactive plots can be zoomed in and out of. 
+The interactive plots can be zoomed in and out of. Do visit the application at: https://jeel.shinyapps.io/TitanicApp/
 
 Enjoy!
